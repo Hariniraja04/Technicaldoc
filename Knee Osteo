@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>td</title>
+</head>
+      <body>
+       <center> <h1 style="background-color:lavenderblush;">TECHNICAL DOCUMENTATION</h1> </center>
+        <section id="about" style="background-color:bisque;">
+        <div>
+           <center><h1>TABLE OF CONTENTS</h1>
+       <table border="2px" width="700" height="400" cellspacing="5" cellpadding="4">
+        <tr>
+            <th>SNO</th>
+            <th>CONTENTS</th>
+       </tr>
+       <tr>
+            <th>1</th>
+                <td><a href="#ss">System Specification</a></td>
+       </tr>
+       <tr> 
+            <th>2</th>
+            <td><a href="#About">About Project</a></td>
+        </tr>
+        <tr>
+            <th>3</th>
+            <td><a href="#sst">System Study</a></td>
+        </tr>
+        <tr>
+            <th>4</th>
+            <td><a href="#md">Module Description </a></td>
+        </tr>
+         <tr>
+            <th>5</th>
+            <td><a href="#Conclusion">Conclusion</a></td>
+        </tr>
+    </center>
+    </table>
+</div>
+</section>
+<section id="ss" style="background-color:darkseagreen;">
+    <div>
+   <center> <h1>System Specification</h1> </center>
+            <h2>1.1 Hardware Requirements</h2>
+            <ul>
+                <li>Processor  :13</li>
+                <li>Hard disk  :500GB</li>
+                <li>Mouse  :Logitech</li>
+                <li>RAM  :4GB(minimum)</li>
+                <li>Keyboard  :110 keys enhanced.</li>
+            </ul>
+    
+    </div>
+    <div>
+         <h2>1.2 Software Requirements</h2>
+         <ul>
+           <li>IDE           :   Visual studio code 
+            <li>FrontEnd     :   PYTHON 
+            <li>BackEnd 	 :   MYSQL 
+            <li>Design 	     :   HTML,CSS 
+            <li>Browser 	 :   Internet explorer, Firefox. 
+            <li>Operating system :   Windows 10/ 11 
+            
+        </ul>
+    </div>
+</section>
+<section style="background-color:cadetblue;">
+<div>
+    <center><h1 id="About">About Project</h1></center>
+    <p>
+                        One of the common causes of senility in the elderly and obese is osteoarthritis.
+         A joint condition called  osteoarthritis attacks the cartilage in larger joints like the knee, hip, foot, and spine. 
+         Bones slide More easily over cartilage, which prevents them from scraping against one another. Osteoarthritis causes cartilage to break, which causes the bones to begin rubbing against one another in extreme pain. 
+         Doctor may prescribe painkillers such acetaminophen, nonsteroidal anti-inflammatory medicines like aspirin, ibuprofen, or naproxen, or even narcotics.
+         But long-term use of these drugs can lead . Doctor wants to treat the osteoarthritis in the knee with surgery ,the options are arthroscopy , osteotomy and arthroplasty.
+         The user(patient) want to register their name and an id will be given to them , using that id they can submit their report and view the doctor.
+        To the user view home-page will be created and both the Doctor and User will have their own login id’s.When the report is submitted to the doctor ,the report get scanned/compared with the stored report .
+         This process takes place at the back-side of this application. By using this application the user(patient) can generate their report’s result.
+        By getting their report they comes to know about their problem and by viewing doctor they can take their medicine properly. </p>  
+    </p>
+    <h2>2.1 Project Description</h2>
+    <p>
+        KOD is an simple and friendly medical application . 
+        This is an useful application foe those person got fractured and got their scan report , but insufficient to visit the hospital and know their outcome of the report from the doctor .
+         Those persons are allowed to use this app -lication and know their report outcome just being at home itself . 
+         This application provide  facilities to view the doctor and query their questions to the doctor . 
+         In our project Admin is the major role , who is the intermediate between doctor and the user . Login page is available for the admin , using their login id they can login .
+         In admin  page there some facilities like view-doctor, view-scan,…....The doctors are allowed to see the report through the view-scan option and the patient are able to visit is the doctor using viewdoctor .
+         Admin page is being home page for both doctors and users. Here doctor first want to login into their page through admin’s home page .
+          Main job of the doctors is to visit into the view scan page and check the scan report and suggest the patient what they want to do next and suggest them the medicine to be taken . 
+          There is another job for the doctors to do ,they want to visit view-query page and give a replay to the queries asked by the patient . 
+         User first want to register their details and then they can login to the application . 
+         Then user want to submit their scan report using add-scan option .
+         After adding their report , they can visit into the doctors page using view-doctor option , and know the result of their report . 
+         If patients have any question they can review their queries to doctor through add-query page .
+    </p>
+</div></section>
+<section style="background-color:rosybrown;">
+<div>
+    <center><h1 id="sst">System Study</h1></center>
+    <p>
+       <h3>System study is classified into two types</h3> 
+        <ul><li>Existing system</li>  
+	        <li>Proposed system </li>
+    </p>
+    <h2>2.3 Existing System :</h2>
+        <p>
+            In the existing concept if  anyone patient got injured want to take a scan and visit the for away/near by hospital .
+            In that case it is not safe for the patient to travel with the pain.
+            Sometime the doctors may not present at the hospital , due to that they may want to visit another hospital or come back to home with pain without any solution for that pain. Even Some times their won’t be any proper treatments and proper instruction.
+            And Sometime doctors may not answer our queries. 
+        </p>
+    <h2>2.4 Proposed System : </h2>
+    <p>
+        In the proposed system the user can use this application to know their report result with short time interval .
+         The user want to register their name and an id will be given to them . 
+         By using their id they can login to submit their scanned report . 
+         Once the report is submitted the report get scanned and move on to the doctors view point . 
+         Then the user can view the doctor  to know their problem in their knee . 
+         The doctors also provide proper medicine and tips to recover their pain and come  back to normal form.
+         User may have some doubt about their description  and they can text queries and get the proper answer from the doctors. 
+    </p>
+  </div>
+ </section>
+ <section style="background-color:darkkhaki;">
+    <div>  
+        <center><h1 id="md">Module Description</h1></center>
+        <p>
+            <h2>Moudels :</h2>
+            <ul>
+                <li>Admin</li>
+                <li>Doctor</li>
+                <li>Patient</li>
+            </ul>
+        </p>
+         <h2>Sub Modules</h2>
+         <h2>Login:</h2>
+         <p>A admin can login to his/her registered page using their user-name and password. </p>
+        <h2>View :</h2>
+        <p>Admin can view doctor’s details and scan report given by the user.</p>
+        <h2>Register :</h2>
+        <p>User can register their page by giving their details . </p>
+     </h1>
+    </section>
+    </div>
+    <section style="background-color: darkcyan;">
+    <div>
+      <center><h1>Final Outcome </h1></center>
+       <h2>IndexPage :</h2>
+       <center><img src="C:\Users\Harini\OneDrive\Pictures\Screenshots/s1.png" width="500" height="250"></center>
+       <h2>Admin Login :</h2>
+       <center><img src="C:\Users\Harini\OneDrive\Pictures\Screenshots/s2.png" width="500" height="250"></center>
+       <h2>Admin home :</h2>
+       <center><img src="C:\Users\Harini\OneDrive\Pictures\Screenshots/s3.png" width="500" height="250"></center>
+       <h2>Doctor home :</h2>
+       <center><img src="C:\Users\Harini\OneDrive\Pictures\Screenshots/s4.png" width="500" height="250"></center>
+       <h2>Doctor Login :</h1>
+       <center><img src="C:\Users\Harini\OneDrive\Pictures\Screenshots/s5.png" width="500" height="250"></center>
+       <h2>User register :</h1>
+        <center><img src="C:\Users\Harini\OneDrive\Pictures\Screenshots/s6.png" width="500" height="250"></center>
+       <h2>User Login :</h2>
+       <center><img src="C:\Users\Harini\OneDrive\Pictures\Screenshots/s7.png" width="500" height="250"></center>
+ </div>
+</section>
+<section style="background-color:lightpink;">
+    <div>
+      <center><h1 id="Conclusion">Conclusion</h1></center>
+      <p> Knee OA is best managed initially by conservative management.
+          Failing this intervention and with positive radiographic evidence of OA surgical options can be considered to reduce pain in the long term and improve quality of life.
+          Knee osteoarthritis (OA), also known as degenerative joint disease of the knee, is typically the result of wear and tear and progressive loss of articular cartilage.
+          It is most common in the elderly.Osteoarthritis (OA) is a common joint disease that most often affects middle age to elderly people. It is commonly referred to as "wear and tear" arthritis, but OA is a disease of the entire joint, involving the cartilage, joint lining, ligaments, and bone.
+          OA affects people of all races and both sexes. Most often, it occurs in patients age 40 and above. 
+          OA is a top cause of disability in older people.
+          There is no cure for the disease, but some treatments may slow disease progression.
+          The goal of osteoarthritis treatment is to reduce pain and improve function.
+          Exercise can improve your muscle strength, decrease joint pain and stiffness, and lower the chance of disability due to OA.
+          Cymbalta is also sometimes prescribed to reduce pain, and patients with more serious pain may need stronger medications, such as prescription narcotics.
+          Joint injections with corticosteroids (sometimes called cortisone shots) or with a form of lubricant called hyaluronic acid can give months of pain relief from OA.
+          Surgical treatment becomes an option for severe cases.
+      </p>
+    </div>
+</section>
+</body>
+</html>
